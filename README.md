@@ -1,9 +1,16 @@
 # When Accuracy Hides Path Dependence: Criterion Fidelity in LLM Judges
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19332783.svg)](https://doi.org/10.5281/zenodo.19332783)
+[![Paper PDF](https://img.shields.io/badge/Paper-PDF-B31B1B.svg)](https://github.com/aliuyar1234/criterion-fidelity-llm-judges/raw/main/paper/When_Accuracy_Hides_Path_Dependence_Criterion_Fidelity_in_LLM_Judges_Ali_Uyar.pdf)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-0D5C63.svg)](LICENSE)
+[![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB.svg)](https://www.python.org/)
+
 Ali Uyar  
 Independent Researcher
 
 This repository contains the manuscript source, experiment code, and reproducibility configs for the paper *When Accuracy Hides Path Dependence: Criterion Fidelity in LLM Judges*.
+
+DOI: [10.5281/zenodo.19332783](https://doi.org/10.5281/zenodo.19332783)
 
 ## Abstract
 
