@@ -1,0 +1,47 @@
+# OS noise
+Thumbs.db
+.DS_Store
+
+# Local environments
+.venv/
+venv/
+
+# Python / local tooling caches
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_tmp/
+.pytest_local_tmp/
+pytest-cache-files-*/
+
+# Local-only internal materials
+.internal/
+
+# Generated data and results are kept local
+data/*
+!data/README.md
+results/*
+!results/README.md
+
+# LaTeX build byproducts
+paper/build/*
+!paper/build/.gitkeep
+paper/*.aux
+paper/*.bbl
+paper/*.bcf
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/*.run.xml
+paper/*.synctex.gz
+paper/*.toc
+paper/*.lof
+paper/*.lot
+paper/*.nav
+paper/*.snm
+paper/*.vrb
+paper/*.xdv
+paper/*.dvi
+paper/*.ps

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "When Accuracy Hides Path Dependence: Criterion Fidelity in LLM Judges"
+type: software
+authors:
+  - family-names: Uyar
+    given-names: Ali
+    affiliation: Independent Researcher
+abstract: >-
+  Manuscript source, experiment code, and reproducibility configuration for a
+  measurement-focused study of criterion fidelity in LLM judges across QA-Key
+  and BioRubric.
+license: Apache-2.0
+keywords:
+  - llm judges
+  - evaluation
+  - criterion fidelity
+  - measurement
+  - path dependence
+date-released: 2026-03-30

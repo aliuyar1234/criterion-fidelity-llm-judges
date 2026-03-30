@@ -1,0 +1,16 @@
+{
+  "schema_version": "v1",
+  "task_family": "biorubric",
+  "stage": "raw_biorubric_wikidata_fetch",
+  "output_path": "data/raw/biorubric/truthy_human_facts.jsonl",
+  "summary_path": "data/raw/biorubric/truthy_human_facts_fetch_summary.json",
+  "retrieval_mode": "sparql",
+  "slot_requests": [
+    {"slot": "notable_work", "page_size": 200, "max_pages": 15},
+    {"slot": "award", "page_size": 200, "max_pages": 15},
+    {"slot": "field", "page_size": 200, "max_pages": 15}
+  ],
+  "timeout_seconds": 60,
+  "max_retries": 6,
+  "sleep_seconds": 1.0
+}

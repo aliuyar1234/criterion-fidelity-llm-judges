@@ -1,0 +1,12 @@
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+extend-exclude = ["pytest-cache-files-*", ".pytest_tmp"]
+
+[tool.ruff.lint]
+select = ["B", "E", "F", "I"]

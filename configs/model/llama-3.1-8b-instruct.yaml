@@ -1,0 +1,8 @@
+{
+  "schema_version": "v1",
+  "stage": "model",
+  "model_id": "Llama-3.1-8B-Instruct",
+  "family": "llama-3.1",
+  "primary": true,
+  "load_in_4bit": true
+}

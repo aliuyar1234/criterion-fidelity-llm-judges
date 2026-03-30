@@ -1,0 +1,10 @@
+{
+  "schema_version": "v1",
+  "task_family": "biorubric",
+  "stage": "pilot_family_build",
+  "input_path": "data/processed/biorubric/canonical_facttable.jsonl",
+  "output_path": "data/processed/biorubric/pilot_families.jsonl",
+  "target_family_count_min": 100,
+  "target_family_count_max": 150,
+  "seed": 2026
+}

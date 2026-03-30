@@ -1,0 +1,49 @@
+{
+  "schema_version": "v1",
+  "task_family": "qa_key",
+  "stage": "raw_qakey_wikidata_fetch",
+  "output_path": "data/raw/qakey/source_rows.jsonl",
+  "summary_path": "data/raw/qakey/source_rows_fetch_summary.json",
+  "retrieval_mode": "sparql",
+  "timeout_seconds": 60,
+  "max_retries": 4,
+  "sleep_seconds": 1.0,
+  "relation_requests": [
+    {
+      "relation_id": "P19",
+      "subject_class_qid": "Q5",
+      "page_size": 200,
+      "max_pages": 15
+    },
+    {
+      "relation_id": "P20",
+      "subject_class_qid": "Q5",
+      "page_size": 200,
+      "max_pages": 15
+    },
+    {
+      "relation_id": "P569",
+      "subject_class_qid": "Q5",
+      "page_size": 50,
+      "max_pages": 60
+    },
+    {
+      "relation_id": "P570",
+      "subject_class_qid": "Q5",
+      "page_size": 50,
+      "max_pages": 60
+    },
+    {
+      "relation_id": "P36",
+      "subject_class_qid": "Q3624078",
+      "page_size": 200,
+      "max_pages": 5
+    },
+    {
+      "relation_id": "P38",
+      "subject_class_qid": "Q3624078",
+      "page_size": 200,
+      "max_pages": 5
+    }
+  ]
+}

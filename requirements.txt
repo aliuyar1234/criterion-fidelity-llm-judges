@@ -1,0 +1,15 @@
+# Core runtime
+accelerate>=0.33.0
+matplotlib>=3.8.0
+numpy>=1.26.0
+PyYAML>=6.0.0
+safetensors>=0.4.5
+torch>=2.4.0
+transformers>=4.45.0
+
+# Optional for the default 4-bit inference path used by the model configs
+bitsandbytes>=0.43.0; platform_system != "Windows"
+
+# Validation and local development
+pytest>=8.0.0
+ruff>=0.11.0

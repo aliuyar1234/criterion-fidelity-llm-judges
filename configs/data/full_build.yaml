@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "stage": "full_family_build",
+  "task_families": ["qa_key", "biorubric"],
+  "targets": {
+    "train": 2000,
+    "dev": 400,
+    "test": 600
+  },
+  "seed": 2026,
+  "qakey_fetch_config": "configs/data/qakey_wikidata_full_fetch.yaml",
+  "qakey_canonical_config": "configs/data/qakey_source.yaml",
+  "biorubric_fetch_config": "configs/data/biorubric_wikidata_full_fetch.yaml",
+  "biorubric_canonical_config": "configs/data/biorubric_source.yaml",
+  "dataset_stats_output_path": "results/metrics/full_dataset_stats.csv",
+  "summary_output_path": "results/metrics/full_build_summary.json"
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": "v1",
+  "task_family": "biorubric",
+  "stage": "canonical_source",
+  "input_path": "data/raw/biorubric/truthy_human_facts.jsonl",
+  "output_path": "data/processed/biorubric/canonical_facttable.jsonl",
+  "source_policy": "wikidata truthy statements for human entities only",
+  "shared_slot": "occupation",
+  "distinguishing_slot_priority": ["notable_work", "award", "field"],
+  "allowed_slots": ["occupation", "notable_work", "award", "field"]
+}

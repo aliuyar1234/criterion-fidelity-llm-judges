@@ -1,0 +1,9 @@
+{
+  "schema_version": "v1",
+  "task_family": "biorubric",
+  "stage": "pilot_inference",
+  "dataset_path": "data/processed/biorubric/pilot_families.jsonl",
+  "model_config": "configs/model/llama-3.1-8b-instruct.yaml",
+  "prompt_config": "configs/prompt/standard.yaml",
+  "split": "dev"
+}

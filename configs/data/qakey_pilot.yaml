@@ -1,0 +1,9 @@
+{
+  "schema_version": "v1",
+  "task_family": "qa_key",
+  "stage": "pilot_family_build",
+  "input_path": "data/processed/qakey/canonical_qatable.jsonl",
+  "output_path": "data/processed/qakey/pilot_families.jsonl",
+  "target_family_count": 200,
+  "seed": 2026
+}

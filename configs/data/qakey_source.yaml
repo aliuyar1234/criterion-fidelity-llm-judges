@@ -1,0 +1,45 @@
+{
+  "schema_version": "v1",
+  "task_family": "qa_key",
+  "stage": "canonical_source",
+  "input_path": "data/raw/qakey/source_rows.jsonl",
+  "output_path": "data/processed/qakey/canonical_qatable.jsonl",
+  "relation_whitelist": [
+    {
+      "relation_id": "P19",
+      "relation_name": "place_of_birth",
+      "coarse_type": "location",
+      "question_template": "Where was {SUBJECT} born?"
+    },
+    {
+      "relation_id": "P20",
+      "relation_name": "place_of_death",
+      "coarse_type": "location",
+      "question_template": "Where did {SUBJECT} die?"
+    },
+    {
+      "relation_id": "P569",
+      "relation_name": "date_of_birth",
+      "coarse_type": "date",
+      "question_template": "When was {SUBJECT} born?"
+    },
+    {
+      "relation_id": "P570",
+      "relation_name": "date_of_death",
+      "coarse_type": "date",
+      "question_template": "When did {SUBJECT} die?"
+    },
+    {
+      "relation_id": "P36",
+      "relation_name": "capital",
+      "coarse_type": "location",
+      "question_template": "What is the capital of {SUBJECT}?"
+    },
+    {
+      "relation_id": "P38",
+      "relation_name": "currency",
+      "coarse_type": "currency",
+      "question_template": "What currency is used in {SUBJECT}?"
+    }
+  ]
+}
