@@ -84,10 +84,6 @@ ruff format --check .
 python -m pytest -q
 ```
 
-## Citation
-
-Citation metadata for GitHub and reference managers is provided in `CITATION.cff`.
-
 ## Notes on Public Artifacts
 
 - Generated datasets, raw model outputs, metrics dumps, checkpoints, and local export bundles are not tracked in the public repository.
