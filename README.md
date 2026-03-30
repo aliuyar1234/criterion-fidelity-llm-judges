@@ -91,6 +91,11 @@ ruff format --check .
 python -m pytest -q
 ```
 
+## Citation
+
+- DOI: [10.5281/zenodo.19332783](https://doi.org/10.5281/zenodo.19332783)
+- Citation metadata: `CITATION.cff`
+
 ## Notes on Public Artifacts
 
 - Generated datasets, raw model outputs, metrics dumps, checkpoints, and local export bundles are not tracked in the public repository.

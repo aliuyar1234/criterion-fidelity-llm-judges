@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the Zenodo release below."
+title: "When Accuracy Hides Path Dependence: Criterion Fidelity in LLM Judges"
+type: software
+authors:
+  - family-names: Uyar
+    given-names: Ali
+    affiliation: Independent Researcher
+abstract: >-
+  Manuscript source, experiment code, and reproducibility configuration for a
+  measurement-focused study of criterion fidelity in LLM judges across QA-Key
+  and BioRubric.
+version: "v1.0.1"
+doi: 10.5281/zenodo.19332783
+date-released: 2026-03-30
+license: Apache-2.0
+repository-code: "https://github.com/aliuyar1234/criterion-fidelity-llm-judges"
+url: "https://doi.org/10.5281/zenodo.19332783"
+keywords:
+  - llm judges
+  - evaluation
+  - criterion fidelity
+  - measurement
+  - path dependence
