@@ -17,6 +17,19 @@ pytest-cache-files-*/
 # Local-only internal materials
 .internal/
 
+# Internal scaffolding — not part of the public research release
+AGENTS.md
+.codex/
+.tmp_gpt_pro_bundle/
+.tmp_zip_*/
+_local/
+CODEX_*.md
+*_CODEX.md
+START_PROMPT_FOR_CODEX.md
+PROMPT_TO_CODEX.md
+GPT_PRO_*.md
+*gpt_pro*
+
 # Generated data and results are kept local
 data/*
 !data/README.md
