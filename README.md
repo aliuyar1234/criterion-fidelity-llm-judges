@@ -1,7 +1,7 @@
 # When Accuracy Hides Path Dependence: Criterion Fidelity in LLM Judges
 
 [![Paper PDF](https://img.shields.io/badge/Paper-PDF-B31B1B?style=flat-square&logo=adobeacrobatreader&logoColor=white)](https://github.com/aliuyar1234/criterion-fidelity-llm-judges/raw/main/paper/When_Accuracy_Hides_Path_Dependence_Criterion_Fidelity_in_LLM_Judges_Ali_Uyar.pdf)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19332783.svg)](https://doi.org/10.5281/zenodo.19332783)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19332782.svg)](https://doi.org/10.5281/zenodo.19332782)
 [![Manuscript Source](https://img.shields.io/badge/LaTeX-source-1D4ED8?style=flat-square&logo=latex&logoColor=white)](paper/main.tex)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-0D5C63?style=flat-square)](LICENSE)
@@ -126,8 +126,8 @@ This repository is licensed under the Apache License 2.0. See [`LICENSE`](LICENS
   author = {Uyar, Ali},
   title  = {When Accuracy Hides Path Dependence: Criterion Fidelity in {LLM} Judges},
   year   = {2026},
-  doi    = {10.5281/zenodo.19332783},
-  url    = {https://doi.org/10.5281/zenodo.19332783},
+  doi    = {10.5281/zenodo.19332782},
+  url    = {https://doi.org/10.5281/zenodo.19332782},
   note   = {Independent research}
 }
 ```

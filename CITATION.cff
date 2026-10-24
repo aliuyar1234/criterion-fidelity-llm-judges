@@ -11,11 +11,11 @@ abstract: >-
   measurement-focused study of criterion fidelity in LLM judges across QA-Key
   and BioRubric.
 version: "v1.0.1"
-doi: 10.5281/zenodo.19332783
+doi: 10.5281/zenodo.19332782
 date-released: 2026-03-30
 license: Apache-2.0
 repository-code: "https://github.com/aliuyar1234/criterion-fidelity-llm-judges"
-url: "https://doi.org/10.5281/zenodo.19332783"
+url: "https://doi.org/10.5281/zenodo.19332782"
 keywords:
   - llm judges
   - evaluation
